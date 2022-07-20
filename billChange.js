@@ -10,10 +10,8 @@ var changeBills = bills => {
     var billTypes = []
     var cBills = [...new Set(bills)]
     const aBills = [5,10,20,50]
-  
-    if ( !checkBills( aBills, cBills ) ) {
-  	    return false
-    }
+ 
+    if ( !checkBills( aBills, cBills ) ) { return false }
 	
 	for (var i = 0; i < bills.length; i++ ) {
 		bill = bills[i] // Customer shows the bill
