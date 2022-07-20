@@ -4,7 +4,7 @@ bills = [5,5,5,20,5,10,5,5,10,20,5,50]
 
 var changeBills = bills => {
 	var bill
-    var nextItem = 0
+	var nextItem = 0
 	var kassa = []
     var givenAmount = 0
     var billTypes = []
